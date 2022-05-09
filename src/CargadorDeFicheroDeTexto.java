@@ -18,6 +18,7 @@ public class CargadorDeFicheroDeTexto {
 
             }
             bufferedReader.close();
+
         } catch (IOException excepcionPropia) {
             throw new ExcepcionPropia();
         }
